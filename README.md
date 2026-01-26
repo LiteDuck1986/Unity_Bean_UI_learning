@@ -1,9 +1,9 @@
 # Unity Learning Bean
 
 **Darāmo darbu saraksts:**
-- [ ] UI Button lietojums
-- [ ] UI Input field lietojums
-- [ ] UI Text lietojums
+- [X] UI Button lietojums
+- [X] UI Input field lietojums
+- [X] UI Text lietojums
 - [ ] UI Image lietojums
 - [ ] UI Radio button lietojums
 - [ ] UI Slider lietojums
