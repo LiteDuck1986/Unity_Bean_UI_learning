@@ -10,6 +10,10 @@ public class ToggleScript : MonoBehaviour
     public GameObject granny;
     public GameObject toggleLeft;
     public GameObject toggleRight;
+    public Image characterImage;
+    public Sprite[] characterSprites;
+    public Slider sizeSlider;
+    public Slider rotationSlider;
 
     public void ToggleBean(bool value)
     {
@@ -18,14 +22,17 @@ public class ToggleScript : MonoBehaviour
         toggleRight.GetComponent<Toggle>().interactable = value;
     }
 
-    public void ToLeft()
+    public void ToggleFlip(bool value)
     {
-        bean.transform.localScale = new Vector2(1, 1);
-    }
+        if (toggleLeft.GetComponent<Toggle>().isOn)
+        {
+            bean.transform.localScale = new Vector2(1, 1);
+        }
 
-    public void ToRight()
-    {
-        bean.transform.localScale = new Vector2(-1, 1);
+        if (toggleRight.GetComponent<Toggle>().isOn)
+        {
+            bean.transform.localScale = new Vector2(-1, 1);
+        }
     }
 
     public void ToggleTeddy(bool value)
@@ -43,7 +50,21 @@ public class ToggleScript : MonoBehaviour
         granny.SetActive(value);
     }
 
+    public void ChangeCharacterImage(int index)
+    {
+        characterImage.GetComponent<Image>().sprite = characterSprites[index];
+    }
 
+    public void ChangeRotation()
+    {
+        float rotationValue = rotationSlider.GetComponent<Slider>().value;
+        characterImage.transform.localRotation = Quaternion.Euler(0, 0, 360 * rotationValue);
+    }
 
+    public void ChangeSize()
+    {
+        float sizeValue = sizeSlider.GetComponent<Slider>().value;
+        characterImage.transform.localScale = new Vector2(2f * sizeValue, 2f * sizeValue);
+    }
 
 }
