@@ -4,8 +4,8 @@
 - [X] UI Button lietojums
 - [X] UI Input field lietojums
 - [X] UI Text lietojums
-- [ ] UI Image lietojums
-- [ ] UI Radio button lietojums
+- [X] UI Image lietojums
+- [X] UI Radio button lietojums
 - [ ] UI Slider lietojums
 - [ ] Drag and drop funkcionilitāte
 - [ ] Audio source lietojums
