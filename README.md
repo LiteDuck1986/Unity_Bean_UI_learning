@@ -11,3 +11,6 @@
 - [X] Audio source lietojums
 - [ ] Riggid body un collider lietojums
 - [ ] Projekta sagatavošana Windows OS
+- [ ] Izveidot galvenās izvelnes ainu (paši)
+- [ ] Izveidot TV ainu (paši)
+- [ ] Integrēt virtuļu ķeršanu spēli

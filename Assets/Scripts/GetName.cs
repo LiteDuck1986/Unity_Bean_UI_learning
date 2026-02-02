@@ -10,6 +10,7 @@ public class GetName : MonoBehaviour
     private int rand;
     public TMP_InputField inputField;
     public TMP_Text textField;
+    public GameObject reverseTextToggle;
 
     public void GetText()
     {
@@ -22,6 +23,20 @@ public class GetName : MonoBehaviour
             text = "User";
             textField.GetComponent<TMP_Text>().text = input[rand] + " " + text + "!";
         }
+
+        reverseTextToggle.GetComponent<Toggle>().interactable = true;
+
+        if (reverseTextToggle.GetComponent<Toggle>().isOn)
+        {
+            ReverseText();
+        }
+    }
+
+    public void ReverseText()
+    {
+        char[] charArray = textField.GetComponent<TMP_Text>().text.ToCharArray();
+        System.Array.Reverse(charArray);
+        textField.GetComponent<TMP_Text>().text = new string(charArray);
     }
 
 
