@@ -7,10 +7,10 @@
 - [X] UI Image lietojums
 - [X] UI Radio button lietojums
 - [X] UI Slider lietojums
-- [ ] Drag and drop funkcionilitāte
+- [X] Drag and drop funkcionilitāte
 - [X] Audio source lietojums
 - [ ] Riggid body un collider lietojums
 - [ ] Projekta sagatavošana Windows OS
-- [ ] Izveidot galvenās izvelnes ainu (paši)
+- [X] Izveidot galvenās izvelnes ainu (paši)
 - [ ] Izveidot TV ainu (paši)
 - [ ] Integrēt virtuļu ķeršanu spēli
