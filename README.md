@@ -9,8 +9,8 @@
 - [X] UI Slider lietojums
 - [X] Drag and drop funkcionilitāte
 - [X] Audio source lietojums
-- [ ] Riggid body un collider lietojums
-- [ ] Projekta sagatavošana Windows OS
+- [X] Riggid body un collider lietojums
+- [X] Projekta sagatavošana Windows OS
 - [X] Izveidot galvenās izvelnes ainu (paši)
 - [ ] Izveidot TV ainu (paši)
 - [ ] Integrēt virtuļu ķeršanu spēli
