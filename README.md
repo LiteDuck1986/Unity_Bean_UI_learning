@@ -12,5 +12,5 @@
 - [X] Riggid body un collider lietojums
 - [X] Projekta sagatavošana Windows OS
 - [X] Izveidot galvenās izvelnes ainu (paši)
-- [ ] Izveidot TV ainu (paši)
-- [ ] Integrēt virtuļu ķeršanu spēli
+- [X] Izveidot TV ainu (paši)
+- [X] Integrēt virtuļu ķeršanu spēli

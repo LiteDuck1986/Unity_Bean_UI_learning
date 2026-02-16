@@ -19,7 +19,7 @@ public class DestroyScript : MonoBehaviour
         {
             Destroy(collision.gameObject);
             destroyedDonuts++;
-            sfx.PlaySFX(2);
+            sfx.PlaySFX(4);
             counterText.text = "Donuts Destroyed:\n" + destroyedDonuts;
         }
     }

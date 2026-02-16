@@ -21,7 +21,7 @@ public class ObjectCatch : MonoBehaviour
 
         if(collision.CompareTag("Donut"))
         {
-            sfx.PlaySFX(2);
+            sfx.PlaySFX(3);
             Destroy(collision.gameObject);
             transform.localScale += new Vector3(sizeIncrease, sizeIncrease, 0);
             rb.mass += massIncrease;

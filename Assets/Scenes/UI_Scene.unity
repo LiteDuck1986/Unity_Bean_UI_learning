@@ -2320,7 +2320,7 @@ Transform:
   m_GameObject: {fileID: 576028007}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.58, y: -4.2, z: 0}
+  m_LocalPosition: {x: 4.58, y: -4.893, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2374,8 +2374,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.09, y: 0.49}
-  m_Radius: 0.4
+  m_Offset: {x: -0.01, y: 1.1}
+  m_Radius: 0.22
 --- !u!50 &576028011
 Rigidbody2D:
   serializedVersion: 5
@@ -3978,7 +3978,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1082931416}
   m_HandleRect: {fileID: 1082931415}
   m_Direction: 2
-  m_Value: -0.0000010205912
+  m_Value: -0.000000092781015
   m_Size: 0.25378168
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -4732,6 +4732,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 809e834a995fbdf44bb32a18dde68ac2, type: 3}
   - {fileID: 8300000, guid: a2ae7d5d5a24aa2479365b3a534fb52b, type: 3}
   - {fileID: 8300000, guid: 7b833ba622479d8439b82016a45134a9, type: 3}
+  - {fileID: 8300000, guid: a60c8d7093faa2740b86e48e33b9b7d2, type: 3}
+  - {fileID: 8300000, guid: 25bf1a69d21c7eb42a485bc64b6ec19d, type: 3}
 --- !u!114 &969223054
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5634,6 +5636,7 @@ GameObject:
   - component: {fileID: 1195306278}
   - component: {fileID: 1195306279}
   - component: {fileID: 1195306280}
+  - component: {fileID: 1195306281}
   m_Layer: 0
   m_Name: MrBean_crazy
   m_TagString: Untagged
@@ -5700,12 +5703,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: dbdb01b2d087020468a0303df8df3076, type: 3}
+  m_Sprite: {fileID: -7902904074587302849, guid: 668fdc39f9c5a624983decbb303a2b61, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 3.61, y: 5.31}
+  m_Size: {x: 1.76, y: 4.49}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -5745,9 +5748,31 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.16974528, y: 0}
-  m_Size: {x: 2.8046973, y: 5.3099995}
+  m_Offset: {x: 0.03799677, y: 1.9385052}
+  m_Size: {x: 1.8111467, y: 4.2571034}
   m_Direction: 0
+--- !u!95 &1195306281
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1195306277}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8c6f6e2c0dac433499605e24041a6b89, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1211406661
 GameObject:
   m_ObjectHideFlags: 0
@@ -6592,7 +6617,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000033950735, y: 657.8416}
+  m_AnchoredPosition: {x: -0.000033950735, y: 657.841}
   m_SizeDelta: {x: -14.0707, y: 881.5664}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1385706152

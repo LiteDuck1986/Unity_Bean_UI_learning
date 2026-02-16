@@ -13,7 +13,7 @@ public class CharacterController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        // animator = GetComponentInChildren<Animator>();
+        animator = GetComponentInChildren<Animator>();
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
     }
 
@@ -31,7 +31,7 @@ public class CharacterController : MonoBehaviour
             moveInput = 1;
         }
 
-        // animator.SetBool("isWalking", moveInput != 0);
+        animator.SetBool("isWalking", moveInput != 0);
 
         if(moveInput > 0)
         {
