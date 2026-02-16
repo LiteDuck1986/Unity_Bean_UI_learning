@@ -5,7 +5,7 @@ public class DestroyScript : MonoBehaviour
 {
     SFX_Script sfx;
     public TMP_Text counterText;
-    private int destroyedDonuts = 0;
+    private int destroyedObjects = 0;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -18,9 +18,17 @@ public class DestroyScript : MonoBehaviour
         if (collision.CompareTag("Donut"))
         {
             Destroy(collision.gameObject);
-            destroyedDonuts++;
+            destroyedObjects++;
             sfx.PlaySFX(4);
-            counterText.text = "Donuts Destroyed:\n" + destroyedDonuts;
+            counterText.text = "Objects Destroyed: " + destroyedObjects;
+        }
+
+        if (collision.CompareTag("Evil"))
+        {
+            Destroy(collision.gameObject);
+            destroyedObjects++;
+            sfx.PlaySFX(4);
+            counterText.text = "Objects Destroyed: " + destroyedObjects;
         }
     }
 
