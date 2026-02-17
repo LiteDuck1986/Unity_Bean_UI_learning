@@ -11,6 +11,7 @@ public class TubeMove : MonoBehaviour
     private float targetX;
     private float moveSpeed;
 
+    public bool isGameActive = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -21,6 +22,9 @@ public class TubeMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Ja spēle nav sākusies tad neturpina šo update metodi
+        if (!isGameActive) return;
+
         transform.position = Vector3.MoveTowards(transform.position, new Vector3(targetX, transform.position.y, transform.position.z), moveSpeed * Time.deltaTime);
 
         if (Mathf.Abs(transform.position.x - targetX) < 0.1f)

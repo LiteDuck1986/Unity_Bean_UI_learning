@@ -26,18 +26,15 @@ public class ObjectCatch : MonoBehaviour
     {
         sfx = FindFirstObjectByType<SFX_Script>();
         rb = GetComponent<Rigidbody2D>();
+
+        HPCount.text = "HP: " + Health;
+        eatenCounterText.text = "Donuts Eaten: 0";
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.transform.IsChildOf(transform))
             return;
-
-        if (Health <= 0)
-        {
-            GameEnded = true;
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        }
 
         if(collision.CompareTag("Donut"))
         {
@@ -53,10 +50,18 @@ public class ObjectCatch : MonoBehaviour
         {
             sfx.PlaySFX(5);
             Destroy(collision.gameObject);
+
             Health--;
+            HPCount.text = "HP: " + Health;
+
             transform.localScale -= new Vector3(sizeDecrease, sizeDecrease, 0);
             rb.mass -= massDecrease;
-            HPCount.text = "HP: " + Health;
+            
+            // Pārbauda vai spēlētājs vel ir dzīvs, pēc HP zaudēšanas, ja ir 0 tad restartē ainu
+            if (Health <= 0)
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            }
         }
     }
 }
