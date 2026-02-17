@@ -251,7 +251,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Donuts Eaten: 0'
+  m_text: 'Score: 0'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d7fa217744e32cc48bfadac48080c575, type: 2}
   m_sharedMaterial: {fileID: -3386423880378086648, guid: d7fa217744e32cc48bfadac48080c575, type: 2}
@@ -801,13 +801,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 445564556}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1055057026}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!95 &445564558
 Animator:
   serializedVersion: 7
@@ -864,8 +864,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.03799677, y: 1.9385052}
-  m_Size: {x: 1.8111467, y: 4.2571034}
+  m_Offset: {x: -0.023051053, y: -0.06800473}
+  m_Size: {x: 0.33693963, y: 0.6439378}
   m_Direction: 0
 --- !u!212 &445564560
 SpriteRenderer:
@@ -916,7 +916,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -7902904074587302849, guid: 668fdc39f9c5a624983decbb303a2b61, type: 3}
+  m_Sprite: {fileID: 3995681892039425768, guid: f96b3333362918c418eab36a80bea55f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1228,7 +1228,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Time
+  m_text: 'TIME: 0.0s'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d7fa217744e32cc48bfadac48080c575, type: 2}
   m_sharedMaterial: {fileID: -3386423880378086648, guid: d7fa217744e32cc48bfadac48080c575, type: 2}
@@ -1597,8 +1597,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.01, y: 1.1}
-  m_Radius: 0.22
+  m_Offset: {x: 0.002928257, y: 0.51}
+  m_Radius: 0.31939238
 --- !u!50 &1055057025
 Rigidbody2D:
   serializedVersion: 5
@@ -1635,7 +1635,7 @@ Transform:
   m_GameObject: {fileID: 1055057021}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.05, y: -4.893, z: 0}
+  m_LocalPosition: {x: -0.05, y: -4.191, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

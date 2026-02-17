@@ -28,7 +28,7 @@ public class ObjectCatch : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
 
         HPCount.text = "HP: " + Health;
-        eatenCounterText.text = "Donuts Eaten: 0";
+        eatenCounterText.text = "Score: 0";
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -43,7 +43,7 @@ public class ObjectCatch : MonoBehaviour
             eatenDonuts++;
             transform.localScale += new Vector3(sizeIncrease, sizeIncrease, 0);
             rb.mass += massIncrease;
-            eatenCounterText.text = "Donuts Eaten: " + eatenDonuts;
+            eatenCounterText.text = "Score: " + eatenDonuts;
         }
 
         if (collision.CompareTag("Evil"))

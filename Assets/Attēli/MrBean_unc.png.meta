@@ -1,0 +1,678 @@
+fileFormatVersion: 2
+guid: f96b3333362918c418eab36a80bea55f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3995681892039425768
+    second: MrBean_unc_0
+  - first:
+      213: -8649741891928588931
+    second: MrBean_unc_1
+  - first:
+      213: -4619614781612776073
+    second: MrBean_unc_2
+  - first:
+      213: -7600541847321590905
+    second: MrBean_unc_3
+  - first:
+      213: -2747049701408959239
+    second: MrBean_unc_4
+  - first:
+      213: -2872172581215338121
+    second: MrBean_unc_5
+  - first:
+      213: -4790089044523776752
+    second: MrBean_unc_6
+  - first:
+      213: 2874662893086523047
+    second: MrBean_unc_7
+  - first:
+      213: -3938153709809928163
+    second: MrBean_unc_8
+  - first:
+      213: -4755379578067187005
+    second: MrBean_unc_9
+  - first:
+      213: -579606760270431234
+    second: MrBean_unc_10
+  - first:
+      213: 7409340603683903617
+    second: MrBean_unc_11
+  - first:
+      213: -8523352441002816956
+    second: MrBean_unc_12
+  - first:
+      213: -8653270631075927061
+    second: MrBean_unc_13
+  - first:
+      213: 3645950480166017462
+    second: MrBean_unc_14
+  - first:
+      213: -8850258815559250464
+    second: MrBean_unc_15
+  - first:
+      213: -7673231300010853365
+    second: MrBean_unc_16
+  - first:
+      213: 8297176751930200097
+    second: MrBean_unc_17
+  - first:
+      213: -9005055460704243217
+    second: MrBean_unc_18
+  - first:
+      213: -4760161217677940940
+    second: MrBean_unc_19
+  - first:
+      213: -6614252957075693163
+    second: MrBean_unc_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MrBean_unc_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 265
+        width: 38
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ee7872c283837730800000000000000
+      internalID: 3995681892039425768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrBean_unc_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 266
+        width: 37
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7df7ccd391f5f780800000000000000
+      internalID: -8649741891928588931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrBean_unc_2
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 268
+        width: 41
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 775a3d6f4d4d3efb0800000000000000
+      internalID: -4619614781612776073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrBean_unc_3
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 269
+        width: 36
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 783c7e19573758690800000000000000
+      internalID: -7600541847321590905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrBean_unc_4
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 268
+        width: 36
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f41d2fd9d480e9d0800000000000000
+      internalID: -2747049701408959239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrBean_unc_5
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 180
+        width: 38
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7710b0b314ef328d0800000000000000
+      internalID: -2872172581215338121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrBean_unc_6
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 181
+        width: 36
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0158baa946f268db0800000000000000
+      internalID: -4790089044523776752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrBean_unc_7
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 182
+        width: 38
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ae3b6fabaad4e720800000000000000
+      internalID: 2874662893086523047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrBean_unc_8
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 187
+        width: 41
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1874efe01ed859c0800000000000000
+      internalID: -3938153709809928163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrBean_unc_9
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 187
+        width: 37
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ca8825087f710eb0800000000000000
+      internalID: -4755379578067187005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrBean_unc_10
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 187
+        width: 35
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb7aa0f8b2d4f7f0800000000000000
+      internalID: -579606760270431234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrBean_unc_11
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 189
+        width: 37
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 188157ec50443d660800000000000000
+      internalID: 7409340603683903617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrBean_unc_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 105
+        width: 40
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44a81921d18f6b980800000000000000
+      internalID: -8523352441002816956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrBean_unc_13
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 110
+        width: 37
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beb2661453869e780800000000000000
+      internalID: -8653270631075927061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrBean_unc_14
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 113
+        width: 40
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b9d5f605a4099230800000000000000
+      internalID: 3645950480166017462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrBean_unc_15
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 105
+        width: 36
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed42587f709d2580800000000000000
+      internalID: -8850258815559250464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrBean_unc_16
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 120
+        width: 56
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0cb17389c4338590800000000000000
+      internalID: -7673231300010853365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrBean_unc_17
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 123
+        width: 49
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 120dd69ab4e752370800000000000000
+      internalID: 8297176751930200097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrBean_unc_18
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 112
+        width: 35
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe13802f4cd970380800000000000000
+      internalID: -9005055460704243217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrBean_unc_19
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 19
+        width: 37
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43727bac79280fdb0800000000000000
+      internalID: -4760161217677940940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrBean_unc_20
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 47
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5912de6baf37534a0800000000000000
+      internalID: -6614252957075693163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1275266574b32dc46837988d413d3253
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      MrBean_unc_0: 3995681892039425768
+      MrBean_unc_1: -8649741891928588931
+      MrBean_unc_10: -579606760270431234
+      MrBean_unc_11: 7409340603683903617
+      MrBean_unc_12: -8523352441002816956
+      MrBean_unc_13: -8653270631075927061
+      MrBean_unc_14: 3645950480166017462
+      MrBean_unc_15: -8850258815559250464
+      MrBean_unc_16: -7673231300010853365
+      MrBean_unc_17: 8297176751930200097
+      MrBean_unc_18: -9005055460704243217
+      MrBean_unc_19: -4760161217677940940
+      MrBean_unc_2: -4619614781612776073
+      MrBean_unc_20: -6614252957075693163
+      MrBean_unc_3: -7600541847321590905
+      MrBean_unc_4: -2747049701408959239
+      MrBean_unc_5: -2872172581215338121
+      MrBean_unc_6: -4790089044523776752
+      MrBean_unc_7: 2874662893086523047
+      MrBean_unc_8: -3938153709809928163
+      MrBean_unc_9: -4755379578067187005
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
