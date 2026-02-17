@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      granny_and_cat_0: -5794070839224175676
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

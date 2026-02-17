@@ -7,6 +7,7 @@ public class DonutBaker : MonoBehaviour
     public float bakeInterval = 1.2f;
     float minPoz, maxPoz;
     Transform ovenTransform;
+    public Transform donutBin;
     public float offset = 0.7f;
     
 
@@ -35,7 +36,8 @@ public class DonutBaker : MonoBehaviour
             Vector2 spawnPoz = new Vector2(randPoz, ovenTransform.position.y);
 
             int donutIndex = Random.Range(0, donutPrefabs.Length);
-            Instantiate(donutPrefabs[donutIndex], spawnPoz, Quaternion.identity, ovenTransform);
+
+            Instantiate(donutPrefabs[donutIndex], spawnPoz, Quaternion.identity, donutBin);
             yield return new WaitForSeconds(bakeInterval);
         }
     }

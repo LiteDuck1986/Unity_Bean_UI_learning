@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bruiser_Jr_0: -5551757497956420114
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

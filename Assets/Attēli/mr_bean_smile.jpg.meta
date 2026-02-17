@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mr_bean_smile_0: 4411956153306448322
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
