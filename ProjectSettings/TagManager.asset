@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Donut
   - Evil
+  - Special
   layers:
   - Default
   - TransparentFX

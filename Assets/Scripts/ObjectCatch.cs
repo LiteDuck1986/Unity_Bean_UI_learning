@@ -46,6 +46,18 @@ public class ObjectCatch : MonoBehaviour
             eatenCounterText.text = "Score: " + eatenDonuts;
         }
 
+        // Dubūlt punkti
+        if(collision.CompareTag("Special"))
+        {
+            sfx.PlaySFX(3);
+            Destroy(collision.gameObject);
+            eatenDonuts++;
+            eatenDonuts++;
+            transform.localScale += new Vector3(sizeIncrease, sizeIncrease, 0);
+            rb.mass += massIncrease;
+            eatenCounterText.text = "Score: " + eatenDonuts;
+        }
+
         if (collision.CompareTag("Evil"))
         {
             sfx.PlaySFX(5);
