@@ -38,7 +38,7 @@ public class ObjectCatch : MonoBehaviour
 
         if(collision.CompareTag("Donut"))
         {
-            sfx.PlaySFX(3);
+            sfx.PlaySFX(6);
             Destroy(collision.gameObject);
             eatenDonuts++;
             transform.localScale += new Vector3(sizeIncrease, sizeIncrease, 0);
@@ -49,7 +49,7 @@ public class ObjectCatch : MonoBehaviour
         // Dubūlt punkti
         if(collision.CompareTag("Special"))
         {
-            sfx.PlaySFX(3);
+            sfx.PlaySFX(7);
             Destroy(collision.gameObject);
             eatenDonuts++;
             eatenDonuts++;

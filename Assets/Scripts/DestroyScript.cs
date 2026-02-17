@@ -23,6 +23,14 @@ public class DestroyScript : MonoBehaviour
             counterText.text = "Objects Destroyed: " + destroyedObjects;
         }
 
+        if (collision.CompareTag("Special"))
+        {
+            Destroy(collision.gameObject);
+            destroyedObjects++;
+            sfx.PlaySFX(4);
+            counterText.text = "Objects Destroyed: " + destroyedObjects;
+        }
+
         if (collision.CompareTag("Evil"))
         {
             Destroy(collision.gameObject);
